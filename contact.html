@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1">
+        <title>Contact</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>$(document).ready(function(){
+            $(".btn").click(function(){
+                $(".input, .area").val("")
+            });
+        });</script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="contact.css">
+    </head>
+
+  <body>
+       <div class="container">
+            <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">`
+                    <a href="index.html">Home</a>
+                </div>
+                
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="projects.html">Projects</a>
+                </div>
+
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            
+            <div class="right-side">
+                <div class="brand">
+                    <div>VICTORIA FENG</div>
+                </div>
+            </div>
+        </div>
+          
+        <div class="container">
+          <p>CONTACT</p>
+        
+          <div class="login" action="contact.php" method="post">
+          <input type="text" name="name" placeholder="Your Name" class="input">
+          <input type="text" name="mail" placeholder="Your Email Address" class="input">
+        </div>
+
+        <div class="subject">
+          <input type="text" name="subject" placeholder="Subject" class="input">
+        </div>
+        
+        <div class="msg">
+          <textarea  class="area" placeholder="Leave a Message"></textarea>
+        </div>
+        
+        <div class="btn">Send Message</div>
+    </body>
+</html>
+
