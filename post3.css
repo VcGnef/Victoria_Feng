@@ -1,0 +1,130 @@
+/* Master styles */
+.home-container{
+    padding: 0.01em 16px;
+}
+
+.home-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+}
+
+.home-center {
+    text-align: center;
+}
+
+.home-padding-64 {
+    padding-top: 64px;
+    padding-bottom: 48px 
+}
+
+.home-tag {
+    color:goldenrod;
+    display: inline-block;
+    text-align: center 
+}
+
+.home-wide {
+    letter-spacing: 4px
+}
+
+/* Center of Page */
+.centerofpage 
+{
+    left: 0;
+    line-height: 200px;
+    position: absolute;
+    text-align: center;
+    padding-top: 15vw;
+    width: 100%;
+    font-family: 'Lucida Bright';
+    font-size: 5vw;
+}
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+/* Nav styles */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;   
+    font-size:0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid goldenrod;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid grey;
+}
+
+/* For blog post */ 
+.header {
+    padding: 21%;
+    background-size: contain;
+    text-align: center;
+    background: url(https://cdn.pixabay.com/photo/2016/11/18/14/19/arrows-1834859_1280.jpg) no-repeat;
+    color: whitesmoke;
+    font-family: 'Lucida Bright';
+    font-size: 20px;
+}
+
+.title {
+    text-align: left;
+    font-family: 'Lucida Bright';
+    font-size: 10px;
+    color: grey;
+    margin-left: 5%;
+}
+
+.title2 {
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 10px;
+    color: goldenrod;
+}
+
+.paragraph {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sign {
+    text-align: left;
+    font-family: 'Lato';
+    margin-left: 10%;
+    margin-right: 10%;
+    color:goldenrod; 
+}
+
